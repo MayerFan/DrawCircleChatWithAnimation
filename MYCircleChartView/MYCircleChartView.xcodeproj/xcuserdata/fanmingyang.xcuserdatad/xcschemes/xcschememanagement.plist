@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MYCircleChartView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5503DE0B1D65BA0E000B3266</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5503DE241D65BA10000B3266</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5503DE2F1D65BA10000B3266</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

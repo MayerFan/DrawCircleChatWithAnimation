@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5503DE111D65BA0E000B3266 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5503DE101D65BA0E000B3266 /* main.m */; };
+		5503DE171D65BA0E000B3266 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5503DE161D65BA0E000B3266 /* ViewController.m */; };
+		5503DE1A1D65BA0E000B3266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5503DE181D65BA0E000B3266 /* Main.storyboard */; };
+		5503DE1C1D65BA0E000B3266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5503DE1B1D65BA0E000B3266 /* Assets.xcassets */; };
+		5503DE1F1D65BA0E000B3266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5503DE1D1D65BA0E000B3266 /* LaunchScreen.storyboard */; };
+		5503DE2A1D65BA10000B3266 /* MYCircleChartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5503DE291D65BA10000B3266 /* MYCircleChartViewTests.m */; };
+		5503DE351D65BA10000B3266 /* MYCircleChartViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5503DE341D65BA10000B3266 /* MYCircleChartViewUITests.m */; };
+		5503DE471D65BB68000B3266 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5503DE451D65BB68000B3266 /* AppDelegate.m */; };
+		5503DE4B1D65BD21000B3266 /* MYCircelChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5503DE4A1D65BD21000B3266 /* MYCircelChartView.m */; };
+		5503DE4F1D65C0A1000B3266 /* MYStockInfoMoneyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5503DE4E1D65C0A1000B3266 /* MYStockInfoMoneyModel.m */; };
+		551577A61D66D1F000DF1EBD /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551577A51D66D1F000DF1EBD /* TestViewController.m */; };
+		551577C01D66D3B100DF1EBD /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 551577AA1D66D3B100DF1EBD /* MASCompositeConstraint.m */; };
+		551577C11D66D3B100DF1EBD /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 551577AD1D66D3B100DF1EBD /* MASConstraint.m */; };
+		551577C21D66D3B100DF1EBD /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 551577AF1D66D3B100DF1EBD /* MASConstraintMaker.m */; };
+		551577C31D66D3B100DF1EBD /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 551577B11D66D3B100DF1EBD /* MASLayoutConstraint.m */; };
+		551577C41D66D3B100DF1EBD /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 551577B51D66D3B100DF1EBD /* MASViewAttribute.m */; };
+		551577C51D66D3B100DF1EBD /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 551577B71D66D3B100DF1EBD /* MASViewConstraint.m */; };
+		551577C61D66D3B100DF1EBD /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 551577B91D66D3B100DF1EBD /* NSArray+MASAdditions.m */; };
+		551577C71D66D3B100DF1EBD /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 551577BC1D66D3B100DF1EBD /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		551577C81D66D3B100DF1EBD /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 551577BE1D66D3B100DF1EBD /* View+MASAdditions.m */; };
+		551577CB1D66DDF600DF1EBD /* MYCircelChartViewTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 551577CA1D66DDF600DF1EBD /* MYCircelChartViewTwo.m */; };
+		551577CE1D66E99B00DF1EBD /* MYCircelChartBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 551577CD1D66E99B00DF1EBD /* MYCircelChartBaseView.m */; };
+		55254A581D7FB62000921D84 /* MYBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55254A571D7FB62000921D84 /* MYBarChartView.m */; };
+		55254A5B1D7FC01E00921D84 /* MYBarChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55254A5A1D7FC01E00921D84 /* MYBarChartModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5503DE261D65BA10000B3266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5503DE041D65BA0D000B3266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5503DE0B1D65BA0E000B3266;
+			remoteInfo = MYCircleChartView;
+		};
+		5503DE311D65BA10000B3266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5503DE041D65BA0D000B3266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5503DE0B1D65BA0E000B3266;
+			remoteInfo = MYCircleChartView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5503DE0C1D65BA0E000B3266 /* MYCircleChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYCircleChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5503DE101D65BA0E000B3266 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5503DE151D65BA0E000B3266 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5503DE161D65BA0E000B3266 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5503DE191D65BA0E000B3266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5503DE1B1D65BA0E000B3266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		5503DE1E1D65BA0E000B3266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5503DE201D65BA0E000B3266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5503DE251D65BA10000B3266 /* MYCircleChartViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYCircleChartViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5503DE291D65BA10000B3266 /* MYCircleChartViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYCircleChartViewTests.m; sourceTree = "<group>"; };
+		5503DE2B1D65BA10000B3266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5503DE301D65BA10000B3266 /* MYCircleChartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYCircleChartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5503DE341D65BA10000B3266 /* MYCircleChartViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYCircleChartViewUITests.m; sourceTree = "<group>"; };
+		5503DE361D65BA10000B3266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5503DE441D65BB68000B3266 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5503DE451D65BB68000B3266 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5503DE491D65BD21000B3266 /* MYCircelChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYCircelChartView.h; sourceTree = "<group>"; };
+		5503DE4A1D65BD21000B3266 /* MYCircelChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYCircelChartView.m; sourceTree = "<group>"; };
+		5503DE4D1D65C0A1000B3266 /* MYStockInfoMoneyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYStockInfoMoneyModel.h; sourceTree = "<group>"; };
+		5503DE4E1D65C0A1000B3266 /* MYStockInfoMoneyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYStockInfoMoneyModel.m; sourceTree = "<group>"; };
+		551577A41D66D1F000DF1EBD /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		551577A51D66D1F000DF1EBD /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		551577A91D66D3B100DF1EBD /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		551577AA1D66D3B100DF1EBD /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		551577AB1D66D3B100DF1EBD /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		551577AC1D66D3B100DF1EBD /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		551577AD1D66D3B100DF1EBD /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		551577AE1D66D3B100DF1EBD /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		551577AF1D66D3B100DF1EBD /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		551577B01D66D3B100DF1EBD /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		551577B11D66D3B100DF1EBD /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		551577B21D66D3B100DF1EBD /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		551577B31D66D3B100DF1EBD /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		551577B41D66D3B100DF1EBD /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		551577B51D66D3B100DF1EBD /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		551577B61D66D3B100DF1EBD /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		551577B71D66D3B100DF1EBD /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		551577B81D66D3B100DF1EBD /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		551577B91D66D3B100DF1EBD /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		551577BA1D66D3B100DF1EBD /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		551577BB1D66D3B100DF1EBD /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		551577BC1D66D3B100DF1EBD /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		551577BD1D66D3B100DF1EBD /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		551577BE1D66D3B100DF1EBD /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		551577BF1D66D3B100DF1EBD /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		551577C91D66DDF600DF1EBD /* MYCircelChartViewTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYCircelChartViewTwo.h; sourceTree = "<group>"; };
+		551577CA1D66DDF600DF1EBD /* MYCircelChartViewTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYCircelChartViewTwo.m; sourceTree = "<group>"; };
+		551577CC1D66E99B00DF1EBD /* MYCircelChartBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYCircelChartBaseView.h; sourceTree = "<group>"; };
+		551577CD1D66E99B00DF1EBD /* MYCircelChartBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYCircelChartBaseView.m; sourceTree = "<group>"; };
+		55254A561D7FB62000921D84 /* MYBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYBarChartView.h; sourceTree = "<group>"; };
+		55254A571D7FB62000921D84 /* MYBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYBarChartView.m; sourceTree = "<group>"; };
+		55254A591D7FC01E00921D84 /* MYBarChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYBarChartModel.h; sourceTree = "<group>"; };
+		55254A5A1D7FC01E00921D84 /* MYBarChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYBarChartModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5503DE091D65BA0E000B3266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5503DE221D65BA10000B3266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5503DE2D1D65BA10000B3266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5503DE031D65BA0D000B3266 = {
+			isa = PBXGroup;
+			children = (
+				5503DE0E1D65BA0E000B3266 /* MYCircleChartView */,
+				5503DE281D65BA10000B3266 /* MYCircleChartViewTests */,
+				5503DE331D65BA10000B3266 /* MYCircleChartViewUITests */,
+				5503DE0D1D65BA0E000B3266 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5503DE0D1D65BA0E000B3266 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5503DE0C1D65BA0E000B3266 /* MYCircleChartView.app */,
+				5503DE251D65BA10000B3266 /* MYCircleChartViewTests.xctest */,
+				5503DE301D65BA10000B3266 /* MYCircleChartViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5503DE0E1D65BA0E000B3266 /* MYCircleChartView */ = {
+			isa = PBXGroup;
+			children = (
+				55254A551D7FB5E000921D84 /* BarChartView */,
+				551577A71D66D3B100DF1EBD /* Vender */,
+				551577A31D66D1D300DF1EBD /* Controller */,
+				5503DE4C1D65C0A1000B3266 /* Mode */,
+				5503DE421D65BB68000B3266 /* CircleChartView */,
+				5503DE431D65BB68000B3266 /* Other */,
+				5503DE151D65BA0E000B3266 /* ViewController.h */,
+				5503DE161D65BA0E000B3266 /* ViewController.m */,
+				5503DE0F1D65BA0E000B3266 /* Supporting Files */,
+			);
+			path = MYCircleChartView;
+			sourceTree = "<group>";
+		};
+		5503DE0F1D65BA0E000B3266 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5503DE201D65BA0E000B3266 /* Info.plist */,
+				5503DE101D65BA0E000B3266 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5503DE281D65BA10000B3266 /* MYCircleChartViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5503DE291D65BA10000B3266 /* MYCircleChartViewTests.m */,
+				5503DE2B1D65BA10000B3266 /* Info.plist */,
+			);
+			path = MYCircleChartViewTests;
+			sourceTree = "<group>";
+		};
+		5503DE331D65BA10000B3266 /* MYCircleChartViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5503DE341D65BA10000B3266 /* MYCircleChartViewUITests.m */,
+				5503DE361D65BA10000B3266 /* Info.plist */,
+			);
+			path = MYCircleChartViewUITests;
+			sourceTree = "<group>";
+		};
+		5503DE421D65BB68000B3266 /* CircleChartView */ = {
+			isa = PBXGroup;
+			children = (
+				551577CC1D66E99B00DF1EBD /* MYCircelChartBaseView.h */,
+				551577CD1D66E99B00DF1EBD /* MYCircelChartBaseView.m */,
+				5503DE491D65BD21000B3266 /* MYCircelChartView.h */,
+				5503DE4A1D65BD21000B3266 /* MYCircelChartView.m */,
+				551577C91D66DDF600DF1EBD /* MYCircelChartViewTwo.h */,
+				551577CA1D66DDF600DF1EBD /* MYCircelChartViewTwo.m */,
+			);
+			path = CircleChartView;
+			sourceTree = "<group>";
+		};
+		5503DE431D65BB68000B3266 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5503DE441D65BB68000B3266 /* AppDelegate.h */,
+				5503DE451D65BB68000B3266 /* AppDelegate.m */,
+				5503DE181D65BA0E000B3266 /* Main.storyboard */,
+				5503DE1B1D65BA0E000B3266 /* Assets.xcassets */,
+				5503DE1D1D65BA0E000B3266 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5503DE4C1D65C0A1000B3266 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				5503DE4D1D65C0A1000B3266 /* MYStockInfoMoneyModel.h */,
+				5503DE4E1D65C0A1000B3266 /* MYStockInfoMoneyModel.m */,
+				55254A591D7FC01E00921D84 /* MYBarChartModel.h */,
+				55254A5A1D7FC01E00921D84 /* MYBarChartModel.m */,
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		551577A31D66D1D300DF1EBD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				551577A41D66D1F000DF1EBD /* TestViewController.h */,
+				551577A51D66D1F000DF1EBD /* TestViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		551577A71D66D3B100DF1EBD /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				551577A81D66D3B100DF1EBD /* Masonry */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		551577A81D66D3B100DF1EBD /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				551577A91D66D3B100DF1EBD /* MASCompositeConstraint.h */,
+				551577AA1D66D3B100DF1EBD /* MASCompositeConstraint.m */,
+				551577AB1D66D3B100DF1EBD /* MASConstraint+Private.h */,
+				551577AC1D66D3B100DF1EBD /* MASConstraint.h */,
+				551577AD1D66D3B100DF1EBD /* MASConstraint.m */,
+				551577AE1D66D3B100DF1EBD /* MASConstraintMaker.h */,
+				551577AF1D66D3B100DF1EBD /* MASConstraintMaker.m */,
+				551577B01D66D3B100DF1EBD /* MASLayoutConstraint.h */,
+				551577B11D66D3B100DF1EBD /* MASLayoutConstraint.m */,
+				551577B21D66D3B100DF1EBD /* Masonry.h */,
+				551577B31D66D3B100DF1EBD /* MASUtilities.h */,
+				551577B41D66D3B100DF1EBD /* MASViewAttribute.h */,
+				551577B51D66D3B100DF1EBD /* MASViewAttribute.m */,
+				551577B61D66D3B100DF1EBD /* MASViewConstraint.h */,
+				551577B71D66D3B100DF1EBD /* MASViewConstraint.m */,
+				551577B81D66D3B100DF1EBD /* NSArray+MASAdditions.h */,
+				551577B91D66D3B100DF1EBD /* NSArray+MASAdditions.m */,
+				551577BA1D66D3B100DF1EBD /* NSArray+MASShorthandAdditions.h */,
+				551577BB1D66D3B100DF1EBD /* NSLayoutConstraint+MASDebugAdditions.h */,
+				551577BC1D66D3B100DF1EBD /* NSLayoutConstraint+MASDebugAdditions.m */,
+				551577BD1D66D3B100DF1EBD /* View+MASAdditions.h */,
+				551577BE1D66D3B100DF1EBD /* View+MASAdditions.m */,
+				551577BF1D66D3B100DF1EBD /* View+MASShorthandAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		55254A551D7FB5E000921D84 /* BarChartView */ = {
+			isa = PBXGroup;
+			children = (
+				55254A561D7FB62000921D84 /* MYBarChartView.h */,
+				55254A571D7FB62000921D84 /* MYBarChartView.m */,
+			);
+			path = BarChartView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5503DE0B1D65BA0E000B3266 /* MYCircleChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5503DE391D65BA10000B3266 /* Build configuration list for PBXNativeTarget "MYCircleChartView" */;
+			buildPhases = (
+				5503DE081D65BA0E000B3266 /* Sources */,
+				5503DE091D65BA0E000B3266 /* Frameworks */,
+				5503DE0A1D65BA0E000B3266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MYCircleChartView;
+			productName = MYCircleChartView;
+			productReference = 5503DE0C1D65BA0E000B3266 /* MYCircleChartView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5503DE241D65BA10000B3266 /* MYCircleChartViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5503DE3C1D65BA10000B3266 /* Build configuration list for PBXNativeTarget "MYCircleChartViewTests" */;
+			buildPhases = (
+				5503DE211D65BA10000B3266 /* Sources */,
+				5503DE221D65BA10000B3266 /* Frameworks */,
+				5503DE231D65BA10000B3266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5503DE271D65BA10000B3266 /* PBXTargetDependency */,
+			);
+			name = MYCircleChartViewTests;
+			productName = MYCircleChartViewTests;
+			productReference = 5503DE251D65BA10000B3266 /* MYCircleChartViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5503DE2F1D65BA10000B3266 /* MYCircleChartViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5503DE3F1D65BA10000B3266 /* Build configuration list for PBXNativeTarget "MYCircleChartViewUITests" */;
+			buildPhases = (
+				5503DE2C1D65BA10000B3266 /* Sources */,
+				5503DE2D1D65BA10000B3266 /* Frameworks */,
+				5503DE2E1D65BA10000B3266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5503DE321D65BA10000B3266 /* PBXTargetDependency */,
+			);
+			name = MYCircleChartViewUITests;
+			productName = MYCircleChartViewUITests;
+			productReference = 5503DE301D65BA10000B3266 /* MYCircleChartViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5503DE041D65BA0D000B3266 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.hztc;
+				TargetAttributes = {
+					5503DE0B1D65BA0E000B3266 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5503DE241D65BA10000B3266 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5503DE0B1D65BA0E000B3266;
+					};
+					5503DE2F1D65BA10000B3266 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5503DE0B1D65BA0E000B3266;
+					};
+				};
+			};
+			buildConfigurationList = 5503DE071D65BA0E000B3266 /* Build configuration list for PBXProject "MYCircleChartView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5503DE031D65BA0D000B3266;
+			productRefGroup = 5503DE0D1D65BA0E000B3266 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5503DE0B1D65BA0E000B3266 /* MYCircleChartView */,
+				5503DE241D65BA10000B3266 /* MYCircleChartViewTests */,
+				5503DE2F1D65BA10000B3266 /* MYCircleChartViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5503DE0A1D65BA0E000B3266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5503DE1F1D65BA0E000B3266 /* LaunchScreen.storyboard in Resources */,
+				5503DE1C1D65BA0E000B3266 /* Assets.xcassets in Resources */,
+				5503DE1A1D65BA0E000B3266 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5503DE231D65BA10000B3266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5503DE2E1D65BA10000B3266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5503DE081D65BA0E000B3266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55254A5B1D7FC01E00921D84 /* MYBarChartModel.m in Sources */,
+				551577CE1D66E99B00DF1EBD /* MYCircelChartBaseView.m in Sources */,
+				551577CB1D66DDF600DF1EBD /* MYCircelChartViewTwo.m in Sources */,
+				551577C11D66D3B100DF1EBD /* MASConstraint.m in Sources */,
+				551577C41D66D3B100DF1EBD /* MASViewAttribute.m in Sources */,
+				551577C61D66D3B100DF1EBD /* NSArray+MASAdditions.m in Sources */,
+				551577A61D66D1F000DF1EBD /* TestViewController.m in Sources */,
+				551577C51D66D3B100DF1EBD /* MASViewConstraint.m in Sources */,
+				55254A581D7FB62000921D84 /* MYBarChartView.m in Sources */,
+				551577C31D66D3B100DF1EBD /* MASLayoutConstraint.m in Sources */,
+				5503DE171D65BA0E000B3266 /* ViewController.m in Sources */,
+				5503DE111D65BA0E000B3266 /* main.m in Sources */,
+				551577C81D66D3B100DF1EBD /* View+MASAdditions.m in Sources */,
+				551577C01D66D3B100DF1EBD /* MASCompositeConstraint.m in Sources */,
+				551577C71D66D3B100DF1EBD /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				551577C21D66D3B100DF1EBD /* MASConstraintMaker.m in Sources */,
+				5503DE471D65BB68000B3266 /* AppDelegate.m in Sources */,
+				5503DE4F1D65C0A1000B3266 /* MYStockInfoMoneyModel.m in Sources */,
+				5503DE4B1D65BD21000B3266 /* MYCircelChartView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5503DE211D65BA10000B3266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5503DE2A1D65BA10000B3266 /* MYCircleChartViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5503DE2C1D65BA10000B3266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5503DE351D65BA10000B3266 /* MYCircleChartViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5503DE271D65BA10000B3266 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5503DE0B1D65BA0E000B3266 /* MYCircleChartView */;
+			targetProxy = 5503DE261D65BA10000B3266 /* PBXContainerItemProxy */;
+		};
+		5503DE321D65BA10000B3266 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5503DE0B1D65BA0E000B3266 /* MYCircleChartView */;
+			targetProxy = 5503DE311D65BA10000B3266 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5503DE181D65BA0E000B3266 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5503DE191D65BA0E000B3266 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5503DE1D1D65BA0E000B3266 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5503DE1E1D65BA0E000B3266 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5503DE371D65BA10000B3266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5503DE381D65BA10000B3266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5503DE3A1D65BA10000B3266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MYCircleChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HZTC.MYCircleChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5503DE3B1D65BA10000B3266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MYCircleChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HZTC.MYCircleChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5503DE3D1D65BA10000B3266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MYCircleChartViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HZTC.MYCircleChartViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MYCircleChartView.app/MYCircleChartView";
+			};
+			name = Debug;
+		};
+		5503DE3E1D65BA10000B3266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MYCircleChartViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HZTC.MYCircleChartViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MYCircleChartView.app/MYCircleChartView";
+			};
+			name = Release;
+		};
+		5503DE401D65BA10000B3266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MYCircleChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HZTC.MYCircleChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MYCircleChartView;
+			};
+			name = Debug;
+		};
+		5503DE411D65BA10000B3266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MYCircleChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HZTC.MYCircleChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MYCircleChartView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5503DE071D65BA0E000B3266 /* Build configuration list for PBXProject "MYCircleChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5503DE371D65BA10000B3266 /* Debug */,
+				5503DE381D65BA10000B3266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5503DE391D65BA10000B3266 /* Build configuration list for PBXNativeTarget "MYCircleChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5503DE3A1D65BA10000B3266 /* Debug */,
+				5503DE3B1D65BA10000B3266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5503DE3C1D65BA10000B3266 /* Build configuration list for PBXNativeTarget "MYCircleChartViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5503DE3D1D65BA10000B3266 /* Debug */,
+				5503DE3E1D65BA10000B3266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5503DE3F1D65BA10000B3266 /* Build configuration list for PBXNativeTarget "MYCircleChartViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5503DE401D65BA10000B3266 /* Debug */,
+				5503DE411D65BA10000B3266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5503DE041D65BA0D000B3266 /* Project object */;
+}
