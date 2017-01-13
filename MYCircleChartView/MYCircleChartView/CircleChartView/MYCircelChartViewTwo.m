@@ -235,7 +235,7 @@ static inline CGPoint centerPoint(UIView *obj){
     shapeLayer.strokeEnd   = _nTempStart + moneyModel.nPercent;
     
     //块标题字符串
-    CGFloat nLimitedWidth = CGRectGetWidth(self.frame) - self.nRadius - self.nCircleWidth - 5;
+    CGFloat nLimitedWidth = CGRectGetWidth(self.frame)/2 - self.nRadius - self.nCircleWidth - 30;
     NSDictionary *dict = @{NSFontAttributeName:[UIFont systemFontOfSize:14.0]};
     CGSize size = [moneyModel.pTitle boundingRectWithSize:CGSizeMake(nLimitedWidth, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:dict context:nil].size;
     
@@ -251,19 +251,31 @@ static inline CGPoint centerPoint(UIView *obj){
     CGFloat line_x = 0;
     CGFloat label_x = 0;
     CGFloat label_y = 0;
-    if ((jiaodu > M_PI_4 && jiaodu <= M_PI_2) || (jiaodu > M_PI_4 * 6 && jiaodu <= M_PI_4 * 9)) {//折线再右侧
-        line_x = CGRectGetWidth(self.frame)  - 20;
+    
+    BOOL isRight = ((jiaodu > M_PI_4 && jiaodu <= M_PI_2) || (jiaodu > M_PI_4 * 6 && jiaodu <= M_PI_4 * 9));
+    
+    CGFloat widthConst = size.width;
+    if (isRight) {//折线再右侧
+        line_x = point2.x + widthConst;
         label_x = line_x - size.width;
         label_y = point2.y - size.height;
         
+        //容错
+        if (line_x >= self.frame.size.width) {
+            line_x = self.frame.size.width - 10;
+        }
+        
     }else {//折线再左侧
-        line_x = 20;
+        line_x = point2.x - widthConst;
         label_x = line_x;
         label_y = point2.y - size.height;
         
         if (label_y < 0) {//条件容错
             label_y = 0;
             point2 = CGPointMake(point2.x, size.height);
+        }
+        if (line_x <= 0) {
+            line_x = 10;
         }
     }
     // 判断文本的位置 逻辑规则是：处于上半部分的文本位置位于折线下方；处于下半部分的文本位置处于折线上方
@@ -307,6 +319,7 @@ static inline CGPoint centerPoint(UIView *obj){
     label.attributedText = attributeStr;
     label.numberOfLines = 0;
     label.frame = CGRectMake(label_x, label_y, size.width, size.height);
+    label.textAlignment = (isRight) ? NSTextAlignmentRight: NSTextAlignmentLeft;
     [self addSubview:label];
     
     
