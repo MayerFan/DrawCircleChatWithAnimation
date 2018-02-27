@@ -81,6 +81,7 @@
 
 - (void)p_showBarView
 {
+    // test声明
     NSMutableArray *tempArray = [NSMutableArray arrayWithCapacity:5];
         MYBarChartModel *model1 = [MYBarChartModel new];
         model1.money = -1538.9;
